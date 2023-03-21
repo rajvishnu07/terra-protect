@@ -13,7 +13,8 @@ void setup() {
     tft.begin();
     tft.fillScreen(TFT_BLACK);
     tft.setTextColor(TFT_WHITE);
-    tft.setTextSize(2);Serial.begin(115200);
+    tft.setTextSize(2);
+    Serial.begin(115200);
     while (!Serial) {
         delay(100);
     }
